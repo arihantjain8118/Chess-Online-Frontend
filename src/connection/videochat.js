@@ -5,7 +5,7 @@ const socket  = require('../connection/socket').socket
 
 
 const Container = styled.div`
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   flex-direction: column;
 `;
@@ -112,7 +112,7 @@ function VideoChatApp(props) {
 
   if (callAccepted) {
     mainView = (
-      <Video playsInline ref={partnerVideo} autoPlay style = {{width: "100%", height: "100%"}} />
+      <Video playsInline ref={partnerVideo} autoPlay style = {{width: "50%", height: "50%"}} />
     );
   } else if (receivingCall) {
     mainView = (
