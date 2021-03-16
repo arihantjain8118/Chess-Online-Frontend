@@ -60,7 +60,7 @@ class CreateNewGame extends React.Component {
             :
                <div>
 
-                    <img src = {HomeIntro} style={{height:"100px", width:"700px" ,
+                    <img src = {HomeIntro} style={{height:"100px", width:"700px",
                     marginLeft: String((window.innerWidth / 2) - 350) + "px",
                     marginTop: String((window.innerHeight / 8)) + "px"}}/>
                     
